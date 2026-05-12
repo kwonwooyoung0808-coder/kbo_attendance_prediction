@@ -1,0 +1,58 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="640" y1="0" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF6FF"/>
+      <stop offset="0.45" stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="184" y1="64" x2="1008" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F4C81"/>
+      <stop offset="0.55" stop-color="#2374B7"/>
+      <stop offset="1" stop-color="#66B2FF"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1280" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#244E7E" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="32" y="28" width="1216" height="664" rx="28" fill="#FDFEFF"/>
+  </g>
+  <rect x="32" y="28" width="1216" height="664" rx="28" stroke="#DDEAF7"/>
+  <rect x="32" y="28" width="248" height="664" rx="28" fill="#F3F8FF"/>
+  <rect x="58" y="72" width="142" height="18" rx="9" fill="#153A61" fill-opacity="0.9"/>
+  <rect x="58" y="110" width="176" height="13" rx="6.5" fill="#6F8194" fill-opacity="0.75"/>
+  <rect x="58" y="164" width="164" height="40" rx="14" fill="#FFFFFF" stroke="#DCE9F6"/>
+  <rect x="58" y="222" width="164" height="40" rx="14" fill="#DFF0FF" stroke="#A9CFF7"/>
+  <rect x="58" y="280" width="164" height="40" rx="14" fill="#FFFFFF" stroke="#DCE9F6"/>
+  <rect x="58" y="174" width="72" height="10" rx="5" fill="#7C91A6"/>
+  <rect x="58" y="232" width="72" height="10" rx="5" fill="#14518A"/>
+  <rect x="58" y="290" width="72" height="10" rx="5" fill="#7C91A6"/>
+  <rect x="310" y="64" width="906" height="154" rx="28" fill="url(#hero)"/>
+  <rect x="350" y="100" width="286" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.96"/>
+  <rect x="350" y="144" width="520" height="14" rx="7" fill="#DCEEFF" fill-opacity="0.95"/>
+  <rect x="350" y="170" width="472" height="14" rx="7" fill="#DCEEFF" fill-opacity="0.85"/>
+  <rect x="310" y="244" width="906" height="146" rx="24" fill="#FFFFFF" stroke="#DFEAF5"/>
+  <rect x="344" y="274" width="156" height="18" rx="9" fill="#183A5B"/>
+  <rect x="344" y="320" width="250" height="46" rx="14" fill="#F8FBFF" stroke="#DDE8F3"/>
+  <rect x="622" y="320" width="250" height="46" rx="14" fill="#F8FBFF" stroke="#DDE8F3"/>
+  <rect x="900" y="320" width="250" height="46" rx="14" fill="#F8FBFF" stroke="#DDE8F3"/>
+  <rect x="344" y="332" width="88" height="10" rx="5" fill="#8397AB"/>
+  <rect x="622" y="332" width="88" height="10" rx="5" fill="#8397AB"/>
+  <rect x="900" y="332" width="88" height="10" rx="5" fill="#8397AB"/>
+  <rect x="344" y="412" width="206" height="104" rx="22" fill="url(#bg)" stroke="#DDE8F3"/>
+  <rect x="574" y="412" width="206" height="104" rx="22" fill="url(#bg)" stroke="#DDE8F3"/>
+  <rect x="804" y="412" width="206" height="104" rx="22" fill="url(#bg)" stroke="#DDE8F3"/>
+  <rect x="1034" y="412" width="182" height="104" rx="22" fill="url(#bg)" stroke="#DDE8F3"/>
+  <rect x="336" y="552" width="880" height="108" rx="24" fill="#FFFFFF" stroke="#DFEAF5"/>
+  <rect x="370" y="582" width="164" height="18" rx="9" fill="#183A5B"/>
+  <rect x="370" y="618" width="320" height="14" rx="7" fill="#C8DBEE"/>
+  <rect x="718" y="576" width="446" height="56" rx="18" fill="#E9F4FF"/>
+  <path d="M754 622C780 604 806 590 832 598C858 606 884 637 910 631C936 625 962 579 988 575C1014 571 1040 610 1066 614C1092 618 1118 598 1144 584" stroke="#1976D2" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="832" cy="598" r="8" fill="#1976D2"/>
+  <circle cx="910" cy="631" r="8" fill="#1976D2"/>
+  <circle cx="988" cy="575" r="8" fill="#1976D2"/>
+  <circle cx="1066" cy="614" r="8" fill="#1976D2"/>
+  <text x="58" y="470" fill="#6F8194" font-family="Arial, sans-serif" font-size="18">Streamlit frontend preview</text>
+  <text x="350" y="120" fill="#0F4C81" font-family="Arial, sans-serif" font-size="28" font-weight="700">KBO Attendance Prediction UI</text>
+</svg>
